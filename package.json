@@ -1,0 +1,27 @@
+{
+  "name": "ai-agent-builder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "firebase serve",
+    "deploy": "firebase deploy",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@codemirror/basic-setup": "^6.0.1",
+    "@codemirror/lang-javascript": "^6.1.0",
+    "@codemirror/theme-one-dark": "^6.1.0",
+    "firebase": "^10.0.0",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.2",
+    "firebase-tools": "^12.0.0"
+  }
+}
